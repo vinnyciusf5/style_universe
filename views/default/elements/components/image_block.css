@@ -1,0 +1,39 @@
+/* ***************************************
+	Image Block
+*************************************** */
+.elgg-image-block {
+	display: flex;
+	align-items: flex-start;
+	
+	&:after {
+		display: none;
+	}
+	
+	&.elgg-chip {
+		align-items: center;
+	}
+	
+	.elgg-image {
+		margin-right: 1rem;
+	}
+	
+	.elgg-image-alt {
+		margin-left: 1rem;
+		order: 1;
+	}
+	
+	> .elgg-body {
+		flex: 1;
+	}
+}
+
+/* ***************************************
+	Image-related
+*************************************** */
+.elgg-photo {
+	border: 1px solid $(border-color-soft);
+	padding: 2px;
+	background-color: #ffffff;
+	max-width: 100%;
+	height: auto;
+}
