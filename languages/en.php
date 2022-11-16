@@ -1163,7 +1163,7 @@ For improved performance, it is recommended that you enable and configure OPcach
 	'newer' => 'Newer',
 	
 	'site' => 'Site',
-	'activity' => 'Atividade',
+	'activity' => 'Activity',
 	'members' => 'Members',
 	'menu' => 'Menu',
 	'item' => 'Item',
